@@ -1,9 +1,9 @@
 pipeline {
-agent { label &#39;master&#39; }
+agent { label 'master' }
 stages {
-stage(&#39;build&#39;) {
+stage('build') {
 steps {
-echo &quot;Hello World!&quot;
+echo "Hello World"
 }
 }
 }
